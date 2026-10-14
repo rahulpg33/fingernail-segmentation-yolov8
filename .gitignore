@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+yolov8-env/
+.ipynb_checkpoints/
+
+# Dataset images are not redistributed (see dataset/README.md)
+dataset/**/images/
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+!results/**/*.jpg
+
+# Ultralytics outputs and downloaded base weights
+runs/
+yolov8*-seg.pt
+
+# Large trained weights (published as GitHub Release assets instead)
+models/Yolov8l.pt
+models/Yolov8x.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
